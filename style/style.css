@@ -164,6 +164,7 @@ a {
     width: 1044px;
     height: 274px;
     margin-top: 58px;
+    gap: 40px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
@@ -290,6 +291,8 @@ a {
     height: 272px;
     border-radius: 18px;
 }
+
+            /* footer site design */
 
 .footer-container {
     width: 1460px;

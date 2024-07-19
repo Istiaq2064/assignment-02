@@ -326,7 +326,7 @@ body {
     height: 782px;
     border: 1px solid rgb(214, 205, 205);
     margin: 0 auto;
-    position: relative;
+   
 }
 
 .team-content {
@@ -337,6 +337,7 @@ body {
     margin: 0 auto;
     text-align: center;
     color: rgba(255, 255, 255, 1);
+    
 }
 
 .team-content h2 {
@@ -366,10 +367,117 @@ body {
     width: 326.67px;
     height: 272px;
     border-radius: 18px;
+    margin-left: 12px;
+    margin-top: 17px;
 }
 
 .image-1{
+    position:relative;
+}
+
+.image-1 h4{
     position: absolute;
+    margin-top: -85px;
+    margin-left: 35px;
+    color: rgba(250, 250, 249, 1);
+    font-size: 1.5rem;
+}
+.image-1 p{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 35px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+}
+.image-2{
+    position:relative;
+}
+
+.image-2 h4{
+    position: absolute;
+    margin-top: -85px;
+    margin-left: 35px;
+    color: rgba(250, 250, 249, 1);
+    font-size: 1.5rem;
+}
+.image-2 p{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 35px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+}
+.image-3{
+    position:relative;
+}
+
+.image-3 h4{
+    position: absolute;
+    margin-top: -85px;
+    margin-left: 35px;
+    color: rgba(250, 250, 249, 1);
+    font-size: 1.5rem;
+}
+.image-3 p{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 35px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+}
+.image-4{
+    position:relative;
+}
+
+.image-4 h4{
+    position: absolute;
+    margin-top: -85px;
+    margin-left: 35px;
+    color: rgba(250, 250, 249, 1);
+    font-size: 1.5rem;
+}
+.image-4 p{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 35px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+}
+.image-5{
+    position:relative;
+}
+
+.image-5 h4{
+    position: absolute;
+    margin-top: -85px;
+    margin-left: 35px;
+    color: rgba(250, 250, 249, 1);
+    font-size: 1.5rem;
+}
+.image-5 p{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 35px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+}
+.image-6{
+    position:relative;
+}
+
+.image-6 h4{
+    position: absolute;
+    margin-top: -85px;
+    margin-left: 35px;
+    color: rgba(250, 250, 249, 1);
+    font-size: 1.5rem;
+}
+.image-6 p{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 35px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
 }
 
                         /* footer site design */

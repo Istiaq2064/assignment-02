@@ -20,11 +20,7 @@ body {
     width: 1460px;
     height: 715px;
     margin: 0 auto;
-    /* background:rgba(255, 255, 255, 0.02) */
     background: linear-gradient(180deg, #111111 70%, rgba(119, 119, 119, 0) 100%);
-
-
-
 }
 
 .navbar-title-container {
@@ -75,12 +71,11 @@ body {
 }
 
 
+            /* bannar style here */
 
-/* bannar style here */
 .bannar-container {
     display: flex;
     position: relative;
-
 }
 
 .title-bannar {
@@ -96,8 +91,6 @@ body {
     line-height: 93.6px;
     text-align: left;
     color: #FFFFFF;
-    ;
-
 }
 
 .title-bannar p {
@@ -108,8 +101,6 @@ body {
     letter-spacing: 0.5px;
     text-align: left;
     color: rgba(255, 255, 255, 0.5);
-    ;
-
 }
 
 .shape {
@@ -128,8 +119,6 @@ body {
     color: rgba(255, 255, 255, 1);
     border: 1px solid rgba(230, 83, 60, 1);
     margin: 28px 14px 0 0;
-
-
 }
 
 .btn-apps {
@@ -141,8 +130,6 @@ body {
     border: 1px solid rgba(255, 255, 255, 1);
     background: rgb(18, 14, 14);
     color: rgba(255, 255, 255, 1);
-
-
 }
 
 .image-bannar img {
@@ -170,14 +157,13 @@ body {
     font-size: 40px;
     font-weight: 900;
     text-align: center;
-    margin-top: 17px;
+    margin-top: 10px;
 }
 
 .free-video p {
     font-size: 13px;
     font-weight: 400;
     text-align: center;
-    margin-top: 5px;
 }
 
 .freevideo {
@@ -219,7 +205,6 @@ body {
     margin-top: 7px;
     color:rgba(239, 237, 232, 0.65);
     margin-left: 30px;
-
 }
 
 /* habit style */
@@ -273,7 +258,6 @@ body {
     font-size: 18px;
     font-weight: 600;
     text-align: center;
-
 }
 
 .img-content p {
@@ -324,7 +308,6 @@ body {
     border-radius: 18px;
     opacity: 0px;
     margin: 30px 32px 29px 165px;
-
 }
 
 .btn {
@@ -337,12 +320,13 @@ body {
     background: rgba(230, 83, 60, 1);
 }
 
-/* our team side style here */
+                             /* our team side style here */
 .team-container {
     width: 1060px;
     height: 782px;
     border: 1px solid rgb(214, 205, 205);
     margin: 0 auto;
+    position: relative;
 }
 
 .team-content {
@@ -384,7 +368,11 @@ body {
     border-radius: 18px;
 }
 
-/* footer site design */
+.image-1{
+    position: absolute;
+}
+
+                        /* footer site design */
 
 .footer-container {
     width: 1460px;

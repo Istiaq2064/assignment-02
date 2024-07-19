@@ -324,7 +324,6 @@ body {
 .team-container {
     width: 1060px;
     height: 782px;
-    border: 1px solid rgb(214, 205, 205);
     margin: 0 auto;
    
 }
@@ -332,7 +331,6 @@ body {
 .team-content {
     width: 671px;
     height: 120px;
-    border: 2px solid greenyellow;
     margin-bottom: 58px;
     margin: 0 auto;
     text-align: center;
@@ -361,6 +359,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: #FFFFFF1A;
+    border-radius: 10px;
 }
 
 .image-container img {
@@ -368,7 +367,7 @@ body {
     height: 272px;
     border-radius: 18px;
     margin-left: 12px;
-    margin-top: 17px;
+    margin-top: 16px;
 }
 
 .image-1{

@@ -16,7 +16,7 @@ body {
     width: 1460px;
     height: 715px;
     margin: 0 auto;
-    background: linear-gradient(180deg, #111111 70%, rgba(119, 119, 119, 0) 100%);
+    background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
 }
 
 .navbar-title-container {
@@ -25,7 +25,6 @@ body {
     margin: 57px auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .title-content {
@@ -47,6 +46,7 @@ body {
     gap: 10px;
     border-radius: 46px;
     border: 1px solid rgba(230, 83, 60, 1);
+    cursor: pointer;
 }
 
 .navbar-content {
@@ -61,6 +61,7 @@ body {
     align-items: center;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 42px;
+    border: 1px solid red;
 }
 
 .navbar-content a {
@@ -69,7 +70,7 @@ body {
 }
 
 
-            /* bannar style here */
+/* bannar style here */
 
 .bannar-container {
     display: flex;
@@ -181,9 +182,10 @@ body {
     font-weight: 900;
     text-align: center;
     margin-top: 20px;
-    color:rgba(250, 250, 249, 1);
+    color: rgba(250, 250, 249, 1);
 }
-.ball{
+
+.ball {
     width: 30px;
     height: 30px;
     border: 1px solid red;
@@ -194,12 +196,12 @@ body {
     margin-left: 20px;
 }
 
-.freevideo p{
+.freevideo p {
     font-size: 16px;
     font-weight: 400;
-    text-align:center;
+    text-align: center;
     margin-top: 7px;
-    color:rgba(239, 237, 232, 0.65);
+    color: rgba(239, 237, 232, 0.65);
     margin-left: 30px;
 }
 
@@ -306,20 +308,151 @@ body {
 .btn {
     width: 224px;
     height: 54px;
+    font-size: 1rem;
     padding: 16px 40px;
     margin-top: 34px;
     gap: 10px;
     border-radius: 42px;
     background: rgba(230, 83, 60, 1);
     border: 1px solid rgba(230, 83, 60, 1);
+    color: rgba(255, 255, 255, 1);
 }
 
-                             /* our team side style here */
+
+/* BMI calclusion here */
+
+.BMI-Calclusion {
+    width: 1440px;
+    height: 487px;
+    margin: 0 auto;
+    background-color: rgba(34, 34, 34, 1);
+    margin-bottom: 100px;
+}
+
+.BMI-cal-title {
+    width: 671px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 88px;
+    margin-bottom: 88px;
+}
+
+.BMI-cal-title h1 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 3rem;
+    margin-top: 5px;
+}
+
+.BMI-cal-title p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+table {
+    color: rgba(239, 237, 232, 0.65);
+}
+
+.BMI-List-form {
+    width: 1460px;
+    height: 535px;
+    display: flex;
+    margin-left: 70px;
+}
+
+.BMI-table h3 {
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: rgba(250, 250, 249, 1);
+    margin-top: 52px;
+    margin-bottom: 52px;
+}
+
+.BMI-table {
+    width: 600px;
+    height: 533px;
+}
+
+
+.BMI-form {
+    width: 577px;
+    height: 386px;
+    margin-left: 7rem;
+}
+
+table{
+    width: 310px;
+    height: 216px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-collapse: collapse;
+    
+}
+th{
+    color: rgba(255, 255, 255, 1);
+    padding: 10px;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+}
+.BMI-form h3 {
+    font-size: 1.75rem;
+    font-weight: 900;
+    color:rgba(255, 255, 255, 1);
+    margin-top:49px;
+}
+
+.BMI-form p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+    margin-top:14px;
+    margin-bottom: 34px;
+}
+
+.input-form input {
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(239, 237, 232, 0.65);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.input-form select {
+    padding: 12px;
+    padding-right: 133px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#select {
+    padding-right: 212px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-cal {
+    width: 180px;
+    height: 50px;
+    font-size: 1rem;
+    margin-top: 34px;
+    gap: 10px;
+    border-radius: 42px;
+    background: rgba(230, 83, 60, 1);
+    border: 1px solid rgba(230, 83, 60, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+/* our team side style here */
 .team-container {
     width: 1060px;
     height: 782px;
     margin: 0 auto;
-   
+
 }
 
 .team-content {
@@ -329,7 +462,7 @@ body {
     margin: 0 auto;
     text-align: center;
     color: rgba(255, 255, 255, 1);
-    
+
 }
 
 .team-content h2 {
@@ -362,108 +495,19 @@ body {
     margin-top: 16px;
 }
 
-.image-1{
-    position:relative;
+.image-1 {
+    position: relative;
 }
 
-.image-1 h4{
+.image-1 h4 {
     position: absolute;
     margin-top: -85px;
     margin-left: 35px;
     color: rgba(250, 250, 249, 1);
     font-size: 1.5rem;
 }
-.image-1 p{
-    position: absolute;
-    margin-top: -50px;
-    margin-left: 35px;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 1.2rem;
-}
-.image-2{
-    position:relative;
-}
 
-.image-2 h4{
-    position: absolute;
-    margin-top: -85px;
-    margin-left: 35px;
-    color: rgba(250, 250, 249, 1);
-    font-size: 1.5rem;
-}
-.image-2 p{
-    position: absolute;
-    margin-top: -50px;
-    margin-left: 35px;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 1.2rem;
-}
-.image-3{
-    position:relative;
-}
-
-.image-3 h4{
-    position: absolute;
-    margin-top: -85px;
-    margin-left: 35px;
-    color: rgba(250, 250, 249, 1);
-    font-size: 1.5rem;
-}
-.image-3 p{
-    position: absolute;
-    margin-top: -50px;
-    margin-left: 35px;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 1.2rem;
-}
-.image-4{
-    position:relative;
-}
-
-.image-4 h4{
-    position: absolute;
-    margin-top: -85px;
-    margin-left: 35px;
-    color: rgba(250, 250, 249, 1);
-    font-size: 1.5rem;
-}
-.image-4 p{
-    position: absolute;
-    margin-top: -50px;
-    margin-left: 35px;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 1.2rem;
-}
-.image-5{
-    position:relative;
-}
-
-.image-5 h4{
-    position: absolute;
-    margin-top: -85px;
-    margin-left: 35px;
-    color: rgba(250, 250, 249, 1);
-    font-size: 1.5rem;
-}
-.image-5 p{
-    position: absolute;
-    margin-top: -50px;
-    margin-left: 35px;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 1.2rem;
-}
-.image-6{
-    position:relative;
-}
-
-.image-6 h4{
-    position: absolute;
-    margin-top: -85px;
-    margin-left: 35px;
-    color: rgba(250, 250, 249, 1);
-    font-size: 1.5rem;
-}
-.image-6 p{
+.image-1 p {
     position: absolute;
     margin-top: -50px;
     margin-left: 35px;
@@ -471,7 +515,107 @@ body {
     font-size: 1.2rem;
 }
 
-                        /* footer site design */
+.image-2 {
+    position: relative;
+}
+
+.image-2 h4 {
+    position: absolute;
+    margin-top: -85px;
+    margin-left: 35px;
+    color: rgba(250, 250, 249, 1);
+    font-size: 1.5rem;
+}
+
+.image-2 p {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 35px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+}
+
+.image-3 {
+    position: relative;
+}
+
+.image-3 h4 {
+    position: absolute;
+    margin-top: -85px;
+    margin-left: 35px;
+    color: rgba(250, 250, 249, 1);
+    font-size: 1.5rem;
+}
+
+.image-3 p {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 35px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+}
+
+.image-4 {
+    position: relative;
+}
+
+.image-4 h4 {
+    position: absolute;
+    margin-top: -85px;
+    margin-left: 35px;
+    color: rgba(250, 250, 249, 1);
+    font-size: 1.5rem;
+}
+
+.image-4 p {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 35px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+}
+
+.image-5 {
+    position: relative;
+}
+
+.image-5 h4 {
+    position: absolute;
+    margin-top: -85px;
+    margin-left: 35px;
+    color: rgba(250, 250, 249, 1);
+    font-size: 1.5rem;
+}
+
+.image-5 p {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 35px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+}
+
+.image-6 {
+    position: relative;
+}
+
+.image-6 h4 {
+    position: absolute;
+    margin-top: -85px;
+    margin-left: 35px;
+    color: rgba(250, 250, 249, 1);
+    font-size: 1.5rem;
+}
+
+.image-6 p {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 35px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+}
+
+/* footer site design */
 
 .footer-container {
     width: 1460px;
@@ -574,4 +718,29 @@ body {
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
     margin-top: 14px;
+}
+
+
+
+
+/* responsive for mobile devices start here */
+
+@media screen and (max-width:576px) {
+    navbar-content {
+        display: none;
+    }
+
+    .hams {
+        display: blocks;
+    }
+
+
+    .bannar-container {
+        display: block;
+    }
+
+    .image-bannar {
+        display:block;
+
+    }
 }

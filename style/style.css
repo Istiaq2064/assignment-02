@@ -53,7 +53,7 @@ body {
 
 .navbar-content {
     display: flex;
-    font-size: 1,125rem;
+    font-size: 1.125rem;
     font-weight: 600;
     text-align: left;
     width: 465px;
@@ -721,18 +721,7 @@ td{
     color: rgba(255, 255, 255, 0.5);
     margin-top: 14px;
 }
-
-
-
-
-/* responsive for mobile devices start here */
-
-@media screen and (max-width:576px) {
-    navbar-content {
-        display: none;
-    }
-
-    .hams {
-        display: blocks;
-    }
+.hams{
+    color: white;
+    display: none;
 }

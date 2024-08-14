@@ -1,9 +1,21 @@
 @media screen and (max-width:576px) {
     .navbar-content{
         display: none;
-    }
-    
+    } 
     .hams{
         display: block;
     }
+
+    .navbar-title-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .bannar-container {
+        flex-direction: column;
+        position: relative;
+    }
+    
+    
 }
